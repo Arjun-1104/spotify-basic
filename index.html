@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - for music</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="">
+            <img src="./logo.png" alt="spotify">
+            <p>Spotify</p>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+            </ul>
+        </nav>
+        <div class="box">
+            <h2>Best of NCS - No Copyright Sounds</h2>
+            <div class="songdiv">
+                <img  alt="cover1">
+                <p class="songname"></p>
+                <div>
+                    <p class="songdur">05:34</p>
+                    <i id="0" class="songitemplay fa-solid fa-circle-play"></i>  
+                </div>
+            </div>
+            <div class="songdiv ">
+                <img alt="">
+                <p></p>
+                <div>
+                    <p>05:34</p>
+                    <i id="1" class="songitemplay fa-solid fa-circle-play"></i>   
+                </div>
+            </div>
+            <div class="songdiv ">
+                <img  alt="">
+                <p></p>
+                <div>
+                    <p>05:34</p>
+                    <i id="2" class="songitemplay fa-solid fa-circle-play"></i>   
+                </div>
+            </div>
+            <div class="songdiv ">
+                <img alt="">
+                <p></p>
+                <div>
+                    <p>05:34</p>
+                    <i id="3" class="songitemplay fa-solid fa-circle-play"></i>   
+                </div>
+            </div>
+            <div class="songdiv">
+                <img alt="">
+                <p></p>
+                <div>
+                    <p>05:34</p>
+                    <i id="4" class="songitemplay fa-solid fa-circle-play"></i>   
+                </div>
+            </div>
+            <div class="songdiv">
+                <img alt="">
+                <p></p>
+                <div>
+                    <p>05:34</p>
+                    <i id="5" class="songitemplay fa-solid fa-circle-play"></i>   
+                </div>
+            </div>
+            <div class="songdiv">
+                <img alt="">
+                <p></p>
+                <div>
+                    <p>05:34</p>
+                    <i id="6" class="songitemplay fa-solid fa-circle-play"></i>   
+                </div>
+            </div>
+            <div class="songdiv">
+                <img alt="">
+                <p></p>
+                <div>
+                    <p>05:34</p>
+                    <i id="7" class="songitemplay fa-solid fa-circle-play"></i>   
+                </div>
+            </div>
+            <div class="songdiv">
+                <img alt="">
+                <p></p>
+                <div>
+                    <p>05:34</p>
+                    <i id="8" class="songitemplay fa-solid fa-circle-play"></i>   
+                </div>
+            </div>
+            <div class="songdiv">
+                <img alt="">
+                <p></p>
+                <div>
+                    <p>05:34</p>
+                    <i id="9" class="songitemplay fa-solid fa-circle-play"></i>   
+                </div>
+            </div>
+        </div>
+        <div class="playmusicsection">
+            <input type="range" id="myprogressbar" min="0" value="0" max="100"></input>
+            <div class="gifandPicons ">
+                <span class="gifsongname ">
+                    <img src="./playing.gif" alt="" id="gif">
+                    <p>01 - Sadi Gali - Tanu Weds Manu</p>
+                </span>
+                <div class="musickey">
+                    <i id="previous" class=" fa-solid fa-backward-step"></i>
+                    <i class="fa-solid fa-circle-play" id="masterplay"></i>
+                    <!-- <i class=" fa-solid fa-circle-pause" id="masterplay"></i> -->
+                    <i id="next" class="fa-solid fa-forward-step" onclick="next()"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/e6c4ce4fb7.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

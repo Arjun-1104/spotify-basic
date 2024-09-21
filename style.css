@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.border{
+    border: 1px solid red;
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(244, 237, 228);
+    font-family: sans-serif;
+}
+nav{
+    width: 100%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+
+}
+nav img{
+    width: 2.2%;
+    height: 80%;
+    margin: 0% 0.5% 0% 1%;
+}
+nav p{
+    font-weight: 600;
+
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+nav ul li{
+    margin-left: 30%;
+    font-size: 12px;
+}
+.box{
+    width: 75%;
+    height: 80%;
+    margin:0.5% auto;
+    border-radius: 5px;
+    background-image: url("./bg.jpg");
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+}
+.box h2{
+    margin-bottom: 3%;
+}
+.songdiv{
+    margin-top: 0.6%;
+    width: 37%;
+    height: 7%;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 70%;
+    font-weight: 600;
+
+}
+.songdiv img{
+    width: 8%;
+    height: 90%;
+    border-radius: 50%;
+}
+.songdiv div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.playmusicsection{
+    width: 100%;
+    height: 11%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    position:fixed;
+    top: 89%;
+    
+
+}
+.playmusicsection #myprogressbar{
+    width: 80%;
+    margin-bottom: 10px;
+
+}
+.gifandPicons{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    width: 80%;
+
+}
+/* .musickey{
+
+} */
+.gifsongname{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    color: #fff;
+    font-size: 12px;
+    margin-right: 2%;
+    /* border: 1px solid red; */
+    white-space: wrap;
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+    
+}
+.gifsongname img{
+    width: 40px;
+    height: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    visibility: hidden;
+}
+.musickey i{ 
+    font-size: 32px;
+    padding:0px 10px ;
+    color: #fff;
+}
+
+@media (min-width:1024px) and (max-width:1439px){
+    nav img{
+       width: 3%; 
+    }
+    .songdiv{
+        width: 45%;
+        font-size: 55%;
+        margin-top: 1%;
+        font-weight: 700;
+
+    }
+    .songdiv img{
+        width: 9%;
+    }
+    .gifsongname{
+        margin-right: 2%;
+        font-size: 10px;
+    }
+    .musickey i{
+        font-size: 25px;
+        padding:0px 7px ;
+        color: #fff;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:1023px){
+    nav img{
+        width: 4%;
+    }
+    .songdiv{
+        width: 55%;
+        height: 8%;
+        font-size: 50%;
+        padding: 0px 13px;
+        
+    }
+    .songdiv img{
+        width: 9.5%;
+    }
+    .playmusicsection{
+        height: 10%;
+    }
+    .playmusicsection #myprogressbar{
+        width: 80%;
+        height: 10%;
+        margin-bottom: 10px;
+    
+    }
+    .gifsongname{
+        margin-right: 2%;
+        font-size: 60%;
+        /* overflow: hidden;
+        text-overflow: ellipsis; */
+        
+    }
+    .musickey i{
+        font-size: 20px;
+        padding:0px 7px ;
+        color: #fff;
+    }
+}
+@media(min-width:320px) and (max-width:767px){
+    nav img{
+        width: 8%;
+        margin-right: 7px;
+    }
+    nav p{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .box{
+        width: 98%;
+        margin:1% auto;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        /* color: #fff; */
+        /* padding: 20px; */
+        /* background-color: rgba(0, 0, 0, 0.8); */
+    }
+    .box h2{
+        font-size: 16px;
+        margin-bottom: 5%;
+    }
+    .songdiv{
+        width: 80%;
+        height: 8%;
+        font-size: 40%;
+        padding: 0px 13px;
+        background-color: rgba(255, 255, 255, 0.1);
+        color: #fff;
+        margin-top: 0.5%;    
+    }
+    .songdiv img{
+        width: 13%;
+    }
+    .playmusicsection{
+        height: 10%;
+    }
+    .playmusicsection #myprogressbar{
+        width: 80%;
+        height: 10%;
+        margin-bottom: 10px;
+    
+    }
+    .gifsongname{
+        margin-right: 0%;
+        font-size: 50%;
+        overflow: hidden;
+    }
+    .musickey i{
+        font-size: 20px;
+        padding:0px 4px ;
+        color: #fff;
+    }
+}
